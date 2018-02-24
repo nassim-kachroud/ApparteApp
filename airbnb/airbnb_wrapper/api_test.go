@@ -11,7 +11,7 @@ func TestLogin(t *testing.T) {
 	api.ApiKey = "d306zoyjsyarp7ifhu67rjxn52tv0t20"
 	params := map[string]string{
 		"username": "canneslocation06150@gmail.com",
-		"password": "ricardo06",
+		"password": "",
 	}
 	token, err := api.Login(params)
 
@@ -35,12 +35,12 @@ func TestGetUserInfo(t *testing.T) {
 
 	loginParams := map[string]string{
 		"username": "canneslocation06150@gmail.com",
-		"password": "ricardo06",
+		"password": "",
 	}
 
 	params := &url.Values{}
 	params.Add("username", "canneslocation06150@gmail.com")
-	params.Add("password", "ricardo06")
+	params.Add("password", "")
 	params.Add("locale", "fr-FR")
 	params.Add("currency", "EUR")
 
@@ -103,7 +103,7 @@ func TestGetCalendar(t *testing.T) {
 	api.ApiKey = "d306zoyjsyarp7ifhu67rjxn52tv0t20"
 	loginParams := map[string]string{
 		"username": "canneslocation06150@gmail.com",
-		"password": "ricardo06",
+		"password": "",
 	}
 
 	params := map[string]string{
