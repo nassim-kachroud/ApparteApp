@@ -1,0 +1,8 @@
+APP_PORT="5000"
+DB_HOST="127.0.0.1"
+DB_PORT=3306
+DB_NAME="apparte_app"
+DB_USER="root"
+DB_PASSWORD="Michel42"
+AIRBNB_API_KEY="d306zoyjsyarp7ifhu67rjxn52tv0t20"
+AIRBNB_ACCESS_TOKEN=""
